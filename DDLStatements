@@ -7,8 +7,10 @@ create table Books_In(
 	Purchased_Date date not null,
 	Arrived_Date date,
 	Arrived bool not null,
-	Price float(8,2) not null,
 	Publisher_ID varchar(32) not null,
+	Publisher_Name varchar(256) not null,
+	Price float(8,2) not null,
+	Quantity int(4) not null,
 	primary key(BookISBN,Purchased_Date)
 );
 
@@ -37,6 +39,7 @@ create table Member(
 	RegisterDate date not null,
 	Firstname varchar(32) not null,
 	Lastname varchar(32) not null,
+	Gender Enum("Male","Female","Other") not null,
 	primary key(UserUUID)
 );
 

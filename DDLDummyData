@@ -15,16 +15,16 @@ insert into Book values
 (9781473696266,"The Origin of (Almost) Everything",0,"Introduction by Professor Stephen Hawking. When Edwin Hubble looked into his telescope in the 1920s, he was shocked to find that nearly all of the galaxies he could see through it were flying away from one another. If these galaxies had always been travelling, he reasoned, then they must, at some point, have been on top of one another. This discovery transformed the debate about one of the most fundamental questions of human existence - how did the universe begin? Every society has stories about the origin of the cosmos and its inhabitants, but now, with the power to peer into the early universe and deploy the knowledge gleaned from archaeology, geology, evolutionary biology and cosmology, we are closer than ever to understanding where it all came from. In The Origin of (almost) Everything, New Scientist explores the modern origin stories of everything from the Big Bang, meteorites and dark energy, to dinosaurs, civilisation, timekeeping, belly-button fluff and beyond. From how complex life evolved on Earth, to the first written language, to how humans conquered space, The Origin of (almost) Everything offers a unique history of the past, present and future of our universe.","Science","Hawking, Stephen",67.68);
 
 insert into Member values
-("1717afd0c4c14f4b8c8d39b1b5502eee","2001-03-20","STran@example.com","2020-03-04","Simra" ,"Tran"),
-("4b94538fece14b83b4a360e45f8777a0","1968-02-28","Hampton12@example.net","2020-03-21","Perry" ,"Hampton"),
-("e70ae07144df4f84800b85336a026fd7","1975-04-17","LMC@example.com","2020-04-12","Luke","Mcfadden"),
-("37a2737a17464bb98fd40efc46ca5395","2003-05-22","Haiden01@example.com","2020-04-15","Haiden","Dupont"),
-("af0b1d64fd34475c82a7de33c64ac6b3","2000-12-28","BLynch@example.net","2020-04-15","Bernard","Lynch"),
-("b5ed40152e6a4efdbb638d9378b5b74e","1989-01-05","201CillianB@company.com","2020-04-21","Cillian" ,"Bowers"),
-("f32490cc62e943169ec4cc21c3a36556","2000-04-10","BoydBoi@school.edu.my","2020-05-08","Brennan" ,"Boyd"),
-("4fe6e07d1dc5429fb5f6aa1c9de2508c","2003-06-13","3829848@example.net","2020-05-09","Reeva" ,"Mcintosh"),
-("9c89759dbd684a47a351e8ea493ee3ad","1995-02-03","AMorrison@school.edu.my","2020-08-01","Amritpal" ,"Morrison"),
-("6f0b4b5157734443b98bcfa510ce7c0a","2003-09-17","Jared2930@example.com","2020-08-30","Jared" ,"Rutledge");
+("1717afd0c4c14f4b8c8d39b1b5502eee","2001-03-20","STran@example.com","2020-03-04","Simra" ,"Tran","Female"),
+("4b94538fece14b83b4a360e45f8777a0","1968-02-28","Hampton12@example.net","2020-03-21","Perry" ,"Hampton","Male"),
+("e70ae07144df4f84800b85336a026fd7","1975-04-17","LMC@example.com","2020-04-12","Luke","Mcfadden","Male"),
+("37a2737a17464bb98fd40efc46ca5395","2003-05-22","Haiden01@example.com","2020-04-15","Haiden","Dupont","Female"),
+("af0b1d64fd34475c82a7de33c64ac6b3","2000-12-28","BLynch@example.net","2020-04-15","Bernard","Lynch","Female"),
+("b5ed40152e6a4efdbb638d9378b5b74e","1989-01-05","201CillianB@company.com","2020-04-21","Cillian" ,"Bowers","Male"),
+("f32490cc62e943169ec4cc21c3a36556","2000-04-10","BoydBoi@school.edu.my","2020-05-08","Brennan" ,"Boyd","Male"),
+("4fe6e07d1dc5429fb5f6aa1c9de2508c","2003-06-13","3829848@example.net","2020-05-09","Reeva" ,"Mcintosh","Male"),
+("9c89759dbd684a47a351e8ea493ee3ad","1995-02-03","AMorrison@school.edu.my","2020-08-01","Amritpal" ,"Morrison","Female"),
+("6f0b4b5157734443b98bcfa510ce7c0a","2003-09-17","Jared2930@example.com","2020-08-30","Jared" ,"Rutledge","Male");
 
 insert into Ratings values
 (9780321580504,"af0b1d64fd34475c82a7de33c64ac6b3","Really nice book",8),
@@ -39,21 +39,21 @@ insert into Ratings values
 (9780128202609,"4b94538fece14b83b4a360e45f8777a0","I study this field, this book is accurate",8);
 
 insert into Books_In values
-("9781975315672","2020-01-03","2020-04-10","True","7531",80.20,5),
-("9781119576440","2020-01-03","2020-04-10","True","1957",150.00,15),
-("9781607742739","2020-01-03","2020-04-10","True","0774",122.20,15),
-("9781250089441","2020-01-03","2020-04-10","True","5008",98.68,10),
-("9781408864395","2020-01-03","2020-04-10","True","0886",42.49,10),
-("9780804851190","2020-01-03","2020-04-10","True","0485",48.22,5),
-("9781250757678","2020-01-03","2020-04-10","True","5075",68.90,5),
-("9781784708498","2020-01-05","2020-04-23","True","8470",32.30,35),
-("9781473695993","2020-01-05","2020-04-23","True","7369",45.40,20),
-("9781119518044","2020-01-05","2020-04-23","True","1951",5560.13,5),
-("9780321580504","2020-01-05","2020-04-23","True","2158",98.10,10),
-("9780128202609","2020-01-05","2020-04-23","True","2820",682.10,3),
-("9783030515683","2020-01-05","2020-04-23","True","3051",625.45,4),
-("9781473696266","2020-01-05",null,"False","7369",50.83,20),
-("9781607742739","2020-01-05","2020-04-23","True","0774",122.20,15);
+("9781975315672","2020-01-03","2020-04-10","1","7531","Yen Press",80.20,5),
+("9781119576440","2020-01-03","2020-04-10","1","1957","Wiley",150.00,15),
+("9781607742739","2020-01-03","2020-04-10","1","0774","Ten Speed Pr",122.20,15),
+("9781250089441","2020-01-03","2020-04-10","1","5008","Thomas Dunne Books",98.68,10),
+("9781408864395","2020-01-03","2020-04-10","1","0886","Bloomsbury Publishing Plc",42.49,10),
+("9780804851190","2020-01-03","2020-04-10","1","0485","Tuttle Pub",48.22,5),
+("9781250757678","2020-01-03","2020-04-10","1","5075","Griffin",68.90,5),
+("9781784708498","2020-01-05","2020-04-23","1","8470","Vintage Publishing",32.30,35),
+("9781473695993","2020-01-05","2020-04-23","1","7369","John Murray Press",45.40,20),
+("9781119518044","2020-01-05","2020-04-23","1","1951","Wiley",5560.13,5),
+("9780321580504","2020-01-05","2020-04-23","1","2158","Addison-Wesley Professional",98.10,10),
+("9780128202609","2020-01-05","2020-04-23","1","2820","Academic Pr",682.10,3),
+("9783030515683","2020-01-05","2020-04-23","1","3051","Springer",625.45,4),
+("9781473696266","2020-01-05",Null,"0","6962","Nicholas Brealey Pub",50.83,20),
+("9781607742739","2020-01-05","2020-04-23","1","0774","Ten Speed Pr",122.20,15);
 
 insert into CartBooks values
 ('9781250089441',"b5ed40152e6a4efdbb638d9378b5b74e",1),
